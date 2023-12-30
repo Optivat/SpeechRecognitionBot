@@ -13,7 +13,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        JDABuilder builder = JDABuilder.createDefault("OTA4ODEyMjM5Njk0MzUyNDY0.Gz4vJn.rXNly9zfS5j76IdDvW7yRqWxzo6kfnqrgxodvQ");
+        JDABuilder builder = JDABuilder.createDefault("");
         // Disable parts of the cache
         builder.enableCache(CacheFlag.MEMBER_OVERRIDES, CacheFlag.VOICE_STATE);
         // Enable the bulk delete event
